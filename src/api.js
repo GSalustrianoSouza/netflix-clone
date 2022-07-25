@@ -16,7 +16,7 @@ const categories = [
     {
         name: "anime",
         title: "Animes",
-        path: `/discover/tv?api_key=${API_KEY}&language=pt-BR&with_genres=16&with_keywords=210024|287501`,
+        path: `/discover/movie?api_key=${API_KEY}&language=pt-BR&with_genres=16&with_keywords=210024|287501`,
         isLarge: false,
     },
     {

@@ -1,4 +1,5 @@
 import './App.css';
+import Row from './components/Row';
 
 function App() {
   return (
@@ -9,8 +10,8 @@ function App() {
 
       {/* Em alta */}
 
-      {/* Filmes de cada categoria */}
-      
+      <Row />
+
     </div>
   );
 }

@@ -10,7 +10,7 @@ const categories = [
     {
         name: "netflixOriginals",
         title: "Originais Netflix",
-        path: `/discover/tv?api_key=${API_KEY}&with_networks=213`,
+        path: `/discover/tv?api_key=${API_KEY}&with_networks=213&language=pt-BR`,
         isLarge: false,
     },
     {

@@ -1,6 +1,7 @@
 import './App.css';
 import Row from './components/Row';
 import categories from './api';
+import Banner from './components/Banner';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       {/* Navbar */}
 
       {/* Destaque */}
+      <Banner />
 
       {/* Em alta */}
       {categories.map((category) => {

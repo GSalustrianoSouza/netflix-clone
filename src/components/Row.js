@@ -27,7 +27,12 @@ function Row({title, path, isLarge }) {
             <div className="row-cards">
                 {movies?.map(movie => {
                     return (
-                        <img className={`movie-card ${isLarge && "movie-card-lg"}`} key={movie.id} src={`${imageHost}${movie.poster_path}`} alt={movie.name}></img>
+                        <img 
+                            className={`movie-card ${isLarge && "movie-card-lg"}`} 
+                            key={movie.id} 
+                            src={`${imageHost}${isLarge ? movie.backdrop_path : movie.poster_path}`} 
+                            alt={movie.name}
+                        ></img>
                     );
                 })}
             </div>

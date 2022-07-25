@@ -15,7 +15,8 @@ function App() {
         <Row 
           key={category.name} 
           title={category.title} 
-          path={category.path} />
+          path={category.path}
+          isLarge={category.isLarge} />
         );
       })}
 

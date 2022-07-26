@@ -43,5 +43,11 @@
     margin-left: 25px;
     margin-bottom: -15px;
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 20px;
+}
+
+.moviePlayer {
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
 }

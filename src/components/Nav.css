@@ -23,7 +23,7 @@
 
 .nav-avatar {
     position: fixed;
-    right: 45px;
+    right: 55px;
     width: 40px;
     object-fit: contain;
     margin-top: -4px;
@@ -32,7 +32,7 @@
 
 .nav-setinha {
     position: fixed;
-    right: -2px;
+    right: 8px;
     width: 40px;
     object-fit: contain;
     margin-top: 5px;
@@ -42,7 +42,7 @@
 
 .nav-search {
     position: fixed;
-    right: 160px;
+    right: 165px;
     width: 40px;
     object-fit: contain;
     margin-top: 5px;
@@ -52,7 +52,7 @@
 
 .nav-notifications {
     position: fixed;
-    right: 70px;
+    right: 85px;
     width: 40px;
     object-fit: contain;
     margin-top: 5px;
@@ -63,7 +63,7 @@
 
 .infantil {
     position: fixed;
-    right: 110px;
+    right: 120px;
     width: 60px;
     object-fit: contain;
     margin-top: 8px;

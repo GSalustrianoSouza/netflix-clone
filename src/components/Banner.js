@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import categories, { getMovies } from '../api';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import "./Banner.css";
 
 
@@ -36,12 +37,12 @@ export default function Banner() {
                 <h1 className='banner-title'>
                     {movie?.name || movie?.original_name || movie?.title}
                 </h1>
-                <div className='banner-buttons-container'>
-                    <button className='banner-button'>Assistir</button>
-                    <button className='banner-button'>Minha lista</button>
-                </div>
                 <div className='banner-description'>
                     <p>{truncate(movie?.overview, 250)}</p>
+                </div>
+                <div className='banner-buttons-container'>
+                    <button className='banner-button'><i className="fa-solid fa-play"></i> Assistir</button>
+                    <button className='banner-button-info'><i className="fas fa-info-circle"></i> Mais informações</button>
                 </div>
             </div>
         </header>

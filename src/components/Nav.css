@@ -30,6 +30,54 @@
     border-radius: 2px;
 }
 
+.nav-setinha {
+    position: fixed;
+    right: -2px;
+    width: 40px;
+    object-fit: contain;
+    margin-top: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-search {
+    position: fixed;
+    right: 160px;
+    width: 40px;
+    object-fit: contain;
+    margin-top: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-notifications {
+    position: fixed;
+    right: 70px;
+    width: 40px;
+    object-fit: contain;
+    margin-top: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.infantil {
+    position: fixed;
+    right: 110px;
+    width: 60px;
+    object-fit: contain;
+    margin-top: 8px;
+    color: white;
+    font-size: 14px;
+}
+
+.infantil:hover{
+    color: #8c8c8c;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
 .nav-container-black {
     background-color: #111;
 }

@@ -2,6 +2,7 @@
     color: white;
     object-fit: contain;
     height: 448px;
+    box-shadow: inset 0px -41px 15px -5px #111111;
 }
 
 .banner-content {
@@ -32,21 +33,46 @@
 
 .banner-button {
     cursor: pointer;
-    color: #fff;
     outline: none;
     border: none;
     font-weight: 700;
-    border-radius: 0.2vw;
+    border-radius: 0.3vw;
     padding-left: 2rem;
     padding-right: 2rem;
     margin-left: 2rem;
     padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #e6e6e6;
+    color: #111;
+}
+
+.banner-button-info {
+    color: #fff;
     background-color: rgba(51, 51, 51, 0.5);
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.3vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: 2rem;
+    padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
 
 .banner-button:hover {
+    transition: 0.2s;
+    color: #fff;
+    background-color: rgba(51, 51, 51, 0.5);
+}
+
+.banner-button-info:hover {
     color: #000;
     background-color: #e6e6e6;
     transition: 0.2s;
+}
+
+.fas{
+    font-size: 16px;
 }

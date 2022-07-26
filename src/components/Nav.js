@@ -23,8 +23,11 @@ function Nav() {
               <li><a href='#'>Minha lista</a></li>
             </ul>
         </div>
+        <div className='nav-search'><i className="fas fa-search"></i></div>
+        <div className='nav-infantil'><p className='infantil'>Infantil</p></div>
+        <div className='nav-notifications'><i className="fas fa-bell"></i></div>
         <img className='nav-avatar' src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png" alt='User'></img>
-        <div>▾</div>
+        <div className='nav-setinha'><i className="fas fa-caret-down"></i></div>
     </div>
   )
 }

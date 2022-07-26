@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Clone da Netflix feita em React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esse projeto foi feito para fins acadêmicos. Todos os direitos reservados à Netflix.
 
 ## Available Scripts
 

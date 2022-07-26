@@ -44,6 +44,7 @@ export default function Banner() {
                     <button className='banner-button'><i className="fa-solid fa-play"></i> Assistir</button>
                     <button className='banner-button-info'><i className="fas fa-info-circle"></i> Mais informações</button>
                 </div>
+                
             </div>
         </header>
   )

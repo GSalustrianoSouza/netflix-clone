@@ -8,6 +8,7 @@
     overflow-y: hidden;
     overflow-x: scroll;
     padding: 20px;
+    transition: all ease 0.5s;
 }
 
 .row-cards::-webkit-scrollbar {
@@ -51,4 +52,34 @@
     margin: 0 auto;
     align-items: center;
     justify-content: center;
+}
+
+.movieRow-left,
+.movieRow-right {
+    position: absolute;
+    width: 40px;
+    height: 225px;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+    padding-top: 25px;
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+
+.movieRow-left {
+    left: 0;
+}
+
+.movieRow-right {
+    right: 0;
+}
+
+.row-container:hover .movieRow-left,
+.row-container:hover .movieRow-right {
+    opacity: 1;
 }

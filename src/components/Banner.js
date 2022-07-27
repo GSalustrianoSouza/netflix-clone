@@ -33,18 +33,20 @@ export default function Banner() {
             backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}")`,
             roundPosition: "center-center",
         }}>
-            <div className='banner-content'>
-                <h1 className='banner-title'>
-                    {movie?.name || movie?.original_name || movie?.title}
-                </h1>
-                <div className='banner-description'>
-                    <p>{truncate(movie?.overview, 250)}</p>
+            <div className='banner-shadow'>
+                <div className='banner-content'>
+                    <h1 className='banner-title'>
+                        {movie?.name || movie?.original_name || movie?.title}
+                    </h1>
+                    <div className='banner-description'>
+                        <p>{truncate(movie?.overview, 250)}</p>
+                    </div>
+                    <div className='banner-buttons-container'>
+                        <button className='banner-button'><i className="fa-solid fa-play"></i> Assistir</button>
+                        <button className='banner-button-info'><i className="fas fa-info-circle"></i> Mais informações</button>
+                    </div>
+                    
                 </div>
-                <div className='banner-buttons-container'>
-                    <button className='banner-button'><i className="fa-solid fa-play"></i> Assistir</button>
-                    <button className='banner-button-info'><i className="fas fa-info-circle"></i> Mais informações</button>
-                </div>
-                
             </div>
         </header>
   )

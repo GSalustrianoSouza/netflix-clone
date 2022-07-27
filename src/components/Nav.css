@@ -8,7 +8,6 @@
     padding: 20px;
     z-index: 1;
     background: linear-gradient(0deg, rgba(17,17,17,0) 0%, rgba(0,0,0, 0.9) 100%);
-
     transition-timing-function: ease-in;
     transition: all 600ms;
 
@@ -19,6 +18,12 @@
     left: 45px;
     width: 100px;
     object-fit: contain;
+    cursor: pointer;
+    transition: transform 450ms;
+}
+
+.nav-logo:hover {
+    transform: scale(1.10);
 }
 
 .nav-avatar {
@@ -48,6 +53,11 @@
     margin-top: 5px;
     color: white;
     cursor: pointer;
+    transition: transform 450ms;
+}
+
+.nav-search:hover {
+    transform: scale(1.10);
 }
 
 .nav-notifications {
